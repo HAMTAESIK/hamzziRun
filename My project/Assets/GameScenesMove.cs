@@ -5,8 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class GameScenesMove : MonoBehaviour
 {
-    public void GameScenesCtrl()
+    public void GoMainMenu()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void GoStageSelect()
+    {
+        SceneManager.LoadScene("StageSelect");
     }
 }
